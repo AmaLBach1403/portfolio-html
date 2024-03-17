@@ -1,0 +1,65 @@
+body{
+    /*houni nekteb background atw yokhorjouli les couleurs w kol w dima 
+    nebda nekteb awel haja body*/
+    background-color: rgb(0, 183, 255);
+    color:beige;
+}
+/*dima ki ena exemple houni nheb nbadel couleur taa pragraphe nenzel p esm 
+tag khater p fi html heya pragraphe (ki nekhdem bel id nhot #)*/
+p{
+color:red;
+}
+#para{
+    width: 80px;
+    height: 120px;
+    /*none maaneha nheb nahi element foukani mtaa width w height*/
+    display:none;
+    background-color: darkgray;
+}
+/*ki nekhdem bel classe nhot point */
+/*hatit h4 raw esm classe okhra maaneha maghir manawed nhot point w kol
+juste ki nheb classe okhra naamel virgle bahdha clasee lokhra w nekteb
+classe eli hachti beha*/
+.accent,
+h4 {
+    background-color: darkorchid;
+    font: size 20px;
+    font-weight: bold;
+}
+ul
+/*nekteb section w nekteb p maaneha p eli mawjouda taht section*/
+section p{
+    font-style: italic;
+}
+h1{
+    /* marging w padding mtaa distance*/
+    margin:0;
+    padding: 0;
+    color: rgb(139, 106, 34);
+    font-size: 50px;
+    font-weight: lighter;
+    text-align: center;
+    font-style: italic;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+    /*inherit maaneha herité maaneha nheb nekhedh nafs couleur mtaa parent*/
+    color:inherit;
+}
+section{
+    /*hedhi mtaa cadre */
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(105, 255, 138);
+    margin:30px;
+    padding: 50px;
+}
+ul li{
+    display:inline;
+}
+input{
+/*hedi thot les elements that baathhom*/
+    display: block;
+}
